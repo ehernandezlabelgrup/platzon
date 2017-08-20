@@ -1,0 +1,31 @@
+{
+  "name": "platzon",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzon",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliowd/platzon.git"
+  },
+  "keywords": [
+    "platzon",
+    "platzi",
+    "fundamentos",
+    "javascript"
+  ],
+  "author": "Emilio Hernandez <eherna40@gmail.com> (https://google.es)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiliowd/platzon/issues"
+  },
+  "homepage": "https://github.com/emiliowd/platzon#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
